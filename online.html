@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>book online</title>
+        <style>
+            .book-online {
+  background-image:linear-gradient(skyblue,orange,pink) ;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100vh; /* Set height to 100% of the viewport height */
+  width: 100vw; /* Set width to 100% of the viewport width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+    overflow: hidden;
+}
+
+/* Additional styling for form elements */
+.book-online form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%; /* Make the form fill the entire width of the container */
+}
+
+.book-online label {
+  font-weight: bold;
+}
+
+.book-online input[type="text"],
+.book-online input[type="email"],
+.book-online input[type="tel"],
+.book-online input[type="date"],
+.book-online input[type="time"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-online button {
+  grid-column: span 2;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.book-online button:hover {
+  background-color: #555;
+}
+
+  
+
+        </style>
+    </head>
+<body>
+<section class="book-online">
+    <h2>Book Online</h2>
+    <p>Schedule your bike repair appointment online for convenience.</p>
+    <form action="book.php" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Your Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="time">Preferred Time:</label>
+      <input type="time" id="time" name="time" required>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+</body>
+</html>
