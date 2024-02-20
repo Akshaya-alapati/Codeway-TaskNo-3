@@ -1,0 +1,129 @@
+body{
+    background-image: linear-gradient(skyblue,orange,pink);
+    color:white;
+}
+.mybutton{
+background-color: aliceblue;
+color: #fa4083;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+padding:11px 25px;
+display:inline-block;
+text-decoration: solid;
+box-shadow: 5px 5px rgb(0,0,0,0.338);
+}
+
+.container{
+    width:1024px; 
+   min-height:300px;
+   margin-left: auto;
+   margin-right: auto;
+}
+nav{
+    color:rgb(245, 245, 245);
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+   
+}
+nav a{
+    text-decoration:solid;
+    color:black;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.cards{
+    #background-color: rgb(47,193,33);
+   
+    display:flex;
+    justify-content:space-between;
+}
+.card1{
+    background-image: url('https://media.istockphoto.com/id/1433834651/photo/cool-hipster-man-portrait.jpg?s=612x612&w=0&k=20&c=cqE7gpnE3oRJ5DOi4nCAYp3NuxgYJN2OuSAxl1xdhj4=');
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 250px;
+    width:30%;
+    
+
+}
+.card2{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/013/571/983/non_2x/this-is-my-place-confident-young-man-keeping-arms-crossed-and-looking-at-camera-while-standing-near-his-motorcycle-in-garage-or-repair-shop-photo.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 250px;
+    width:30%;
+}
+.card3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj4C-ESK0nOh0lTtZfLxnrtXT3ezBSo86Lytwvq5RKBCi2lzmfcDMqtBs1maDesPOo_GU&usqp=CAU');
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 250px;
+    width:30%;
+   
+}
+.herobox1{
+     flex:2;
+     padding:90px ;
+}
+.herobox2{
+    flex:2;
+    padding:90px ;
+}
+#img{
+    height: 250px;
+    width:350px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+}
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+    
+    
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin-top: 20px;
+    color:rgb(255, 0, 47);
+    text-align: center;
+}
+.cards p{
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    margin-top:10px ;
+    
+}
+.cards a{
+    color:aliceblue;
+    text-decoration: solid;
+}
+.card1, .card2, .card3{
+    padding:50px;
+    box-sizing:border-box ;
+    box-shadow: 5px 5px rgb(0,0,0,0.338);
+}
+footer{
+    background-color: #333;
+    padding: 0.5em 0;
+    text-align: center;
+   
+   
+
+}
